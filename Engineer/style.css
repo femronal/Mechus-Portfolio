@@ -1,0 +1,97 @@
+html {
+    height: 100%;    
+}
+
+
+body {
+    background-color: black;
+    background-image: url(https://images.unsplash.com/photo-1503791774117-08c379dd7f7c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=736&q=80);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+    font-family: 'Baloo Tamma 2', cursive;
+}
+
+header {
+    height: 188px; 
+    text-align: center;  
+}
+
+#Mechus {
+    color: dodgerblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+    background-color: rgba(53, 184, 235, 0.158);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+}
+
+main {
+   height: 500px;
+   text-align: center;
+   padding-top: 84px;
+   padding-right: 240px;
+   padding-left: 240px;
+   
+}
+
+footer {
+    background-color:rgba(17, 172, 233, 0.192);
+    height: 100px;    
+}
+
+footer p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+article {
+    box-sizing: border-box;
+    padding: 7px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+article a {
+   display: inline-block;
+   padding: 7px; 
+   color: #2196f3 !important;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   text-decoration: none;
+   font-size: 24px;
+   transition: 0.2s;
+}
+
+a:hover {
+    color: #255784  !important;
+    background-color: #2196f3  !important;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3  !important;
+    transition-delay: 0.2s  !important;
+}
+main a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+   /* text-decoration: none*/

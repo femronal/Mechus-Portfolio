@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Sriracha', cursive;
+    min-width:fit-content;
+    max-height: fit-content;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+nav {
+    margin-top: 70px;
+    padding: 7px;
+    float: left;
+}
+
+.brand {
+    float: right;
+}
+
+nav a {
+    padding: 3px;
+    text-decoration: none;
+    border: normal;
+    border-radius: 7px;
+    color:white;
+    background-color: dodgerblue;
+    margin: 10px;
+    text-decoration-style: double;
+    letter-spacing: 0.2em;
+}
+
+nav a:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+#allpictures {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 0.5rem;
+    margin-top: 10%;
+      
+}
+
+.content {
+    height: 15rem;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+.LGC {
+    position: absolute;
+    top: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;  
+}
+
+.engineersonly {
+    padding: 0;
+}
+
+
+figcaption {
+    color: dodgerblue;
+    font-size: 0.9rem;
+}
+
+
+.logo img {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: none;
+}
+
+.LGC figcaption {
+    transition: 1s;
+    color: transparent;
+    font-weight: 1200;
+}
+
+.LGC:hover figcaption {
+    font-weight: 1200;
+    color: dodgerblue;
+}
+
+
+
+.content :hover {
+   background-color: rgba(0, 0, 0, 0.781) ;
+    transition: 1s;
+}
+
+@media only screen and (max-width: 1024px){
+    #allpictures {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #allpictures {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        margin-top: 31%;
+    }
+}
+
+
+    @media only screen and (max-width: 480px) {
+        #Mechus-CEO {
+            display: none;
+            position: absolute;
+        }
+        article {
+            padding-top: 39%;
+            display: inline;
+           
+           
+        }
+        aside{
+            display: none;
+        }
+    }
+
+
+
+/*About Page*/
+
+aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 12%;
+    width: 100%;
+    font-family: 'Sriracha', cursive;
+}
+
+#Mechus-CEO {
+    position: fixed;
+}
+
+#Mechus-plans {
+    grid-column: 2 / 3;
+}
+
+
+
+
